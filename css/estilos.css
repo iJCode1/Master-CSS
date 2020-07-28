@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.container {
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  display: block;
+  /* border: 1px solid red; */
+  font-size: 4em;
+  text-align: center;
+  color: white;
+  letter-spacing: 3px;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 7px;
+}
+
+.menu {
+  list-style: none;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu li {
+  margin-bottom: 2em;
+}
+
+.menu li a {
+  color: white;
+  font-size: 3em;
+  text-decoration: none;
+}
