@@ -52,3 +52,33 @@
   font-size: 3em;
   text-decoration: none;
 }
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 3em;
+  }
+
+  .menu li a {
+    font-size: 2.7em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 2.2em;
+  }
+
+  .menu li a {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .title {
+    font-size: 1.5em;
+  }
+
+  .menu li a {
+    font-size: 2em;
+  }
+}
