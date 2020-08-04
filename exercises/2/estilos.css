@@ -46,6 +46,7 @@
   width: 130px;
   float: left;
   border-right: 1px solid rgb(33, 150, 243);
+  padding: 0px 10px;
 }
 
 .menu__link {
@@ -56,4 +57,12 @@
 
 .menu__element:first-child {
   border-left: 1px solid rgb(33, 150, 243);
+}
+
+.menu__element:hover {
+  background-color: rgba(33, 150, 243, 1);
+}
+
+.menu__link:hover {
+  color: #e4f9ff;
 }
