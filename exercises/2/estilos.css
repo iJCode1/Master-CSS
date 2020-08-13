@@ -71,13 +71,40 @@
   float: none;
   clear: both;
 }
+/* --------------------------Article-----------------------------*/
+/*
+.article__container {
+  position: relative;
+  height: 1900px;
+}
 
 .article {
   background-color: white;
   box-shadow: 0px 0px 5px black;
   width: 45%;
   height: 540px;
-  margin: 60px 0px;
+  margin: 60px 10px;
+  padding: 0em 2em;
+}
+
+.article.one {
+  z-index: 4;
+  margin: 60px 10px;
+  margin-bottom: 20px;
+  position: absolute;
+  right: 40px;
+}
+
+.article.two {
+  z-index: 2;
+  margin: 60px 10px;
+  position: absolute;
+  right: 40px;
+}
+
+.article.three {
+  z-index: 3;
+  margin: 60px 10px;
 }
 
 .article1__title {
@@ -98,6 +125,10 @@
   color: #a8df65;
 }
 
+.article__paragraph {
+  text-align: justify;
+}
+
 .article2__title {
   padding: 15px 0px;
   text-align: center;
@@ -114,4 +145,16 @@
   width: 95%;
   margin-bottom: 10px;
   color: #ffa259;
+}
+*/
+
+/*------------------------- Aside -------------------------------*/
+.aside__container {
+  width: 200px;
+  height: 700px;
+  background-color: #eeeeee;
+}
+
+.dashed {
+  border: 1px dashed #ccc;
 }
