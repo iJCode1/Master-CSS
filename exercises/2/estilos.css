@@ -67,6 +67,14 @@
   color: #e4f9ff;
 }
 
+.submenu {
+  list-style: none;
+}
+
+.submenu li a {
+  text-decoration: none;
+}
+
 .float__fix {
   float: none;
   clear: both;
