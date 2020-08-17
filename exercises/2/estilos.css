@@ -294,3 +294,15 @@ aside > ul {
 .section__title.three {
   color: #febf63;
 }
+
+.historic {
+  position: relative;
+}
+
+.historic > .green {
+  position: absolute;
+  top: 1400px;
+  right: 217px;
+  color: #639a67;
+  margin-bottom: 50px;
+}
