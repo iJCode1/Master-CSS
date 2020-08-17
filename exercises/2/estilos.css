@@ -46,10 +46,10 @@
   width: 130px;
   float: left;
   border-right: 1px solid rgb(33, 150, 243);
-  padding: 0px 10px;
 }
 
 .menu__link {
+  width: 100%;
   display: block;
   color: #eeeeee;
   text-decoration: none;
@@ -69,6 +69,41 @@
 
 .submenu {
   list-style: none;
+  display: none;
+}
+
+.menu__element:hover .submenu {
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  text-align: left;
+  z-index: 1;
+}
+
+.menu__element:hover .submenu__element {
+  background-color: #0f4c75;
+  border-bottom: 1px solid #3282b8;
+  width: 100%;
+  height: 100%;
+}
+
+.menu__element:hover .submenu__link {
+  color: #bbe1fa;
+  width: 100%;
+  height: 100%;
+}
+
+.menu__element:hover .submenu__element:hover {
+  background-color: #c4fb6d;
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+.menu__element:hover .submenu__link:hover {
+  color: black;
+  width: 100%;
+  height: 100%;
 }
 
 .submenu li a {
