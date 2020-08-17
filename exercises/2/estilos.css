@@ -155,7 +155,7 @@
 
 .aside {
   width: 200px;
-  height: 815px;
+  height: 870px;
   background-color: #eeeeee;
   position: absolute;
   top: 30px;
@@ -225,11 +225,15 @@
 
 aside > ul {
   list-style: square;
+  margin-left: 20px;
+  padding: 10px;
 }
 
 .aside > ul > li > a {
   text-decoration: none;
   color: #639a67;
+  font-size: 0.95em;
+  text-align: justify;
 }
 
 /*----------------------- Aside 2 ------------------------- */
@@ -242,22 +246,26 @@ aside > ul {
   position: absolute;
   left: 50px;
   box-shadow: 0px 0px 7px #56556e;
-  top: 900px;
+  top: 960px;
   width: 180px;
   background-color: #eeeeee;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 .aside2__title {
   font-size: 0.9em;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
+  padding-left: 10px;
 }
 
 .aside2__paragraph {
   text-align: justify;
   margin-bottom: 3px;
+  padding: 0px 10px;
 }
 
 .aside2__note {
   color: #639a67;
+  padding-left: 10px;
 }
