@@ -245,12 +245,26 @@ aside > ul {
 
 .section {
   width: 1000px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   box-shadow: 0px 0px 2px black;
   position: relative;
   left: 300px;
-  top: 30px;
+  top: 45px;
   height: 430px;
+}
+
+.sticker1,
+.sticker2 {
+  position: absolute;
+  margin-top: -20px;
+}
+
+.sticker1 {
+  left: 10px;
+}
+
+.sticker2 {
+  right: 10px;
 }
 
 .section__title {
@@ -303,7 +317,7 @@ aside > ul {
 
 .historic > .green {
   position: absolute;
-  top: 1390px;
+  top: 1455px;
   right: 217px;
   color: #639a67;
   margin-bottom: 50px;
@@ -320,7 +334,7 @@ aside > ul {
   background-color: #41444b;
   color: white;
   position: absolute;
-  top: 1450px;
+  top: 1520px;
   text-align: center;
 }
 .footer > h2 {
