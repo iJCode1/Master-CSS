@@ -294,3 +294,52 @@ aside > ul {
 .section__title.three {
   color: #febf63;
 }
+
+/*-------------------------- Historic -----------------------*/
+
+.historic {
+  position: relative;
+}
+
+.historic > .green {
+  position: absolute;
+  top: 1390px;
+  right: 217px;
+  color: #639a67;
+  margin-bottom: 50px;
+}
+
+/*------------------------- Footer --------------------------*/
+.footerContainer {
+  position: relative;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #41444b;
+  color: white;
+  position: absolute;
+  top: 1450px;
+  text-align: center;
+}
+.footer > h2 {
+  line-height: 60px;
+}
+
+.footer > a {
+  color: white important!;
+  text-decoration: none;
+  width: 300px;
+  font-size: 1.4em;
+}
+
+.footer__github {
+  padding: 0px 50px 0px 30px;
+  background-image: url("../2/images/logo-github.svg");
+  background-size: 1.2em;
+  background-repeat: no-repeat;
+  background-position-x: 150px;
+  background-position-y: center;
+  filter: invert(1);
+}
